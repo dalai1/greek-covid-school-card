@@ -96,7 +96,7 @@ try:
 
 #perifereia 
     search = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.XPATH, '//*[@id="menu-"]/div[3]/ul/li[1]')) #.../li[1] ΜΑΚΕΔΟΝΙΑ-ΘΡΑΚΗ  .../li[2] ΑΤΤΙΚΗ  κλπ κλπ
+        EC.presence_of_element_located((By.XPATH, '//*[@id="menu-"]/div[3]/ul/li[1]'))       #.../li[1] ΜΑΚΕΔΟΝΙΑ-ΘΡΑΚΗ  .../li[2] ΑΤΤΙΚΗ  κλπ κλπ
     )
     search.click()
 
@@ -108,7 +108,7 @@ try:
 
 #perifereiakh enotita 
     search = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.XPATH, '//*[@id="menu-"]/div[3]/ul/li[6]')) # .../li[1] ΔΡΑΜΑ .../li[2] ΕΒΡΟΥ ΚΛΠ ΚΛΠ
+        EC.presence_of_element_located((By.XPATH, '//*[@id="menu-"]/div[3]/ul/li[6]'))             # .../li[1] ΔΡΑΜΑ .../li[2] ΕΒΡΟΥ ΚΛΠ ΚΛΠ
     )
     search.click()
 
@@ -120,7 +120,7 @@ try:
     search.click()
 
     search = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.XPATH, '//*[@id="menu-"]/div[3]/ul/li[3]')) #.../li[1]  ΔΗΜΟΙ 
+        EC.presence_of_element_located((By.XPATH, '//*[@id="menu-"]/div[3]/ul/li[3]'))                 #.../li[1]  ΔΗΜΟΙ 
     )
     search.click()
 
@@ -131,7 +131,7 @@ try:
     search.click()
 
     search = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.XPATH, '//*[@id="menu-"]/div[3]/ul/li[3]'))  # .../li[1] ΔΗΜΟΤΗΚΑ-ΓΥΜΝΑΣΙΑ ΚΛΠ
+        EC.presence_of_element_located((By.XPATH, '//*[@id="menu-"]/div[3]/ul/li[3]'))               # .../li[1] ΔΗΜΟΤΗΚΑ-ΓΥΜΝΑΣΙΑ ΚΛΠ
     )
     search.click()
 
@@ -142,7 +142,7 @@ try:
     search.click()
 
     search = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.XPATH, '//*[@id="menu-"]/div[3]/ul/li[2]')) # .../li[1] ΤΥΠΟΣ ΣΧΟΛΕΙΟΥ 
+        EC.presence_of_element_located((By.XPATH, '//*[@id="menu-"]/div[3]/ul/li[2]'))              # .../li[1] ΤΥΠΟΣ ΣΧΟΛΕΙΟΥ 
     )
     search.click()
     #sxoleio 
@@ -152,7 +152,7 @@ try:
     search.click()
 
     search = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.XPATH, '//*[@id="menu-"]/div[3]/ul/li[6]')) # .../li[1] 1ο 2ο ΔΗΜΟΤΙΚΟ ΣΧΟΛΕΙΟ ΚΛΠ 
+        EC.presence_of_element_located((By.XPATH, '//*[@id="menu-"]/div[3]/ul/li[6]'))             # .../li[1] 1ο 2ο ΔΗΜΟΤΙΚΟ ΣΧΟΛΕΙΟ ΚΛΠ 
         
     )
     search.click()
